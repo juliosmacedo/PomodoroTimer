@@ -1,0 +1,124 @@
+#container {
+  margin: auto;
+  align-items: center;
+  font-size: 3.5em;
+  font-family: 'Bebas Neue';
+  text-align: center;
+}
+
+body {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-size: 5em;
+    font-family: 'Bebas Neue';
+    color: #2b2b2b;
+    text-align: center;
+    padding: 0px;
+    margin: 0.2em;
+  }
+
+  h3 {
+    display: none;
+    font-size: 3em;
+    font-family: 'Bebas Neue';
+    color: #2b2b2b;
+    text-align: center;
+    padding: 0px;
+    margin: 0.2em;
+  }
+  
+  
+  .card {
+    display: none;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+    margin: 2rem;
+  }
+  
+  h1 {
+    font-family: 'Bebas Neue';
+    font-size: 8rem;
+    margin: 2rem;
+    text-align: center;
+    padding: 10px;
+  }
+
+  h5, h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 3rem auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5rem solid rgb(0, 0, 0);
+    border-radius: 30px;
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    .card {
+      flex: 1 1 calc(50% - 2rem);
+    }
+      
+  h2 {
+    font-size: 4rem;
+  }
+  h1 {
+    font-size: 5rem;
+    margin: 2rem;
+    text-align: center;
+    padding: 10px;
+    line-height: 5rem;
+  }
+
+  h5, h4 {
+    font-size: 0.6em;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  }
+  
+  @media screen and (min-width: 900px) {
+    .card {
+      flex: 1 1 calc(33% - 2rem);
+    }
+  }
+
+  @media only screen and (min-width: 501px) {
+    .card {
+      flex: 1 1 calc(50% - 2rem);
+    }
+  }
+
+body {
+    background-color: #F6E6C0;
+}
